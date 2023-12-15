@@ -50240,7 +50240,7 @@ x7(){var s=0,r=A.O(t.Ke),q,p,o,n,m,l,k,j,i
 var $async$x7=A.K(function(a,b){if(a===1)return A.L(b,r)
 while(true)switch(s){case 0:i=J
 s=3
-return A.P($.hP().km(0,"http://192.168.1.4:3000/civicsTestOverview",t.z),$async$x7)
+return A.P($.hP().km(0,"https://access-to-citizenship-3a149f930148.herokuapp.com/civicsTestOverview",t.z),$async$x7)
 case 3:p=i.aT(b.a,"data")
 o=J.ab(p)
 n=o.h(p,"totalTests")
@@ -50259,7 +50259,7 @@ a0t(a){var s=0,r=A.O(t.j4),q,p,o,n,m,l,k,j,i
 var $async$xm=A.K(function(b,c){if(b===1)return A.L(c,r)
 while(true)switch(s){case 0:i=J
 s=3
-return A.P($.hP().CH("http://192.168.1.4:3000/userTestOverview",a,t.z),$async$xm)
+return A.P($.hP().CH("https://access-to-citizenship-3a149f930148.herokuapp.com/userTestOverview",a,t.z),$async$xm)
 case 3:p=i.aT(c.a,"data")
 o=J.ab(p)
 n=o.h(p,"firstTest")==null?null:A.aub(t.a.a(o.h(p,"firstTest")))
@@ -50291,7 +50291,7 @@ a0b(a){var s=0,r=A.O(t.W4),q,p,o,n,m,l,k,j,i,h
 var $async$xe=A.K(function(b,c){if(b===1)return A.L(c,r)
 while(true)switch(s){case 0:h=J
 s=3
-return A.P($.hP().CH("http://192.168.1.4:3000/locationAnalytics",a,t.z),$async$xe)
+return A.P($.hP().CH("https://access-to-citizenship-3a149f930148.herokuapp.com/locationAnalytics",a,t.z),$async$xe)
 case 3:p=h.aT(c.a,"data")
 o=J.ab(p)
 n=A.cS(o.h(p,"users"))
@@ -50314,7 +50314,7 @@ while(true)switch(s){case 0:o=A
 n=J
 m=J
 s=3
-return A.P($.hP().km(0,"http://192.168.1.4:3000/incrementUsers",t.z),$async$C4)
+return A.P($.hP().km(0,"https://access-to-citizenship-3a149f930148.herokuapp.com/incrementUsers",t.z),$async$C4)
 case 3:p=o.Rk(n.cT(m.aT(b.a,"data")),null)
 q=p==null?0:p
 s=1
@@ -50327,7 +50327,7 @@ while(true)switch(s){case 0:o=A
 n=J
 m=J
 s=3
-return A.P($.hP().km(0,"http://192.168.1.4:3000/incrementGuests",t.z),$async$xs)
+return A.P($.hP().km(0,"https://access-to-citizenship-3a149f930148.herokuapp.com/incrementGuests",t.z),$async$xs)
 case 3:p=o.Rk(n.cT(m.aT(b.a,"data")),null)
 q=p==null?0:p
 s=1
@@ -50340,7 +50340,7 @@ while(true)switch(s){case 0:o=J
 n=t.f
 m=J
 s=3
-return A.P($.hP().km(0,"http://192.168.1.4:3000/engagedUsers",t.z),$async$B4)
+return A.P($.hP().km(0,"https://access-to-citizenship-3a149f930148.herokuapp.com/engagedUsers",t.z),$async$B4)
 case 3:p=o.z_(n.a(m.aT(b.a,"data")))
 q=p.hd(p,new A.atn(),t.rB).dB(0)
 s=1
@@ -50356,7 +50356,7 @@ m=J
 l=t.f
 k=J
 s=3
-return A.P($.hP().CH("http://192.168.1.4:3000/userEngagementData",a,p),$async$xl)
+return A.P($.hP().CH("https://access-to-citizenship-3a149f930148.herokuapp.com/userEngagementData",a,p),$async$xl)
 case 3:n=m.ub(l.a(k.aT(c.a,"data")),o,p)
 q=A.aH(["model",A.aMu(new A.aD(a,A.aH(["watched",n.h(0,"watched"),"total",n.h(0,"total")],o,p),t.Gh)),"videosNumber",n.h(0,"videosNumber")],o,p)
 s=1
@@ -50369,7 +50369,7 @@ while(true)switch(s){case 0:o=J
 n=t.j
 m=J
 s=3
-return A.P($.hP().km(0,"http://192.168.1.4:3000/users",t.z),$async$x3)
+return A.P($.hP().km(0,"https://access-to-citizenship-3a149f930148.herokuapp.com/users",t.z),$async$x3)
 case 3:p=o.eW(n.a(m.aT(b.a,"data")),new A.ato(),t.Ct)
 q=A.ac(p,!0,A.l(p).i("aL.E"))
 s=1
@@ -50381,7 +50381,7 @@ a0r(a){var s=0,r=A.O(t.lM),q,p,o
 var $async$xk=A.K(function(b,c){if(b===1)return A.L(c,r)
 while(true)switch(s){case 0:o=J
 s=3
-return A.P($.hP().CH("http://192.168.1.4:3000/getUserData",a,t.z),$async$xk)
+return A.P($.hP().CH("https://access-to-citizenship-3a149f930148.herokuapp.com/getUserData",a,t.z),$async$xk)
 case 3:p=o.aT(c.a,"data")
 if(p==null){q=null
 s=1
@@ -50401,7 +50401,7 @@ xd(){var s=0,r=A.O(t.S),q,p
 var $async$xd=A.K(function(a,b){if(a===1)return A.L(b,r)
 while(true)switch(s){case 0:p=J
 s=3
-return A.P($.hP().km(0,"http://192.168.1.4:3000/getLessonViews",t.z),$async$xd)
+return A.P($.hP().km(0,"https://access-to-citizenship-3a149f930148.herokuapp.com/getLessonViews",t.z),$async$xd)
 case 3:q=p.aT(b.a,"data")
 s=1
 break
@@ -50413,7 +50413,7 @@ while(true)switch(s){case 0:p=B.d
 o=A
 n=J
 s=3
-return A.P($.hP().km(0,"http://192.168.1.4:3000/completionRate",t.z),$async$x8)
+return A.P($.hP().km(0,"https://access-to-citizenship-3a149f930148.herokuapp.com/completionRate",t.z),$async$x8)
 case 3:q=p.aO(o.je(n.aT(b.a,"data"))*100)
 s=1
 break
@@ -50426,7 +50426,7 @@ o=A
 n=A
 m=J
 s=3
-return A.P($.hP().km(0,"http://192.168.1.4:3000/watchedTime",t.z),$async$xp)
+return A.P($.hP().km(0,"https://access-to-citizenship-3a149f930148.herokuapp.com/watchedTime",t.z),$async$xp)
 case 3:q=p.qM(o.c9(0,0,n.cS(m.aT(b.a,"data"))))
 s=1
 break
@@ -50438,7 +50438,7 @@ while(true)switch(s){case 0:o=J
 n=t.f
 m=J
 s=3
-return A.P($.hP().km(0,"http://192.168.1.4:3000/mostViewedVideos",t.z),$async$xf)
+return A.P($.hP().km(0,"https://access-to-citizenship-3a149f930148.herokuapp.com/mostViewedVideos",t.z),$async$xf)
 case 3:p=o.z_(n.a(m.aT(b.a,"data")))
 q=p.hd(p,new A.atx(),t.sF).dB(0)
 s=1
@@ -50451,7 +50451,7 @@ while(true)switch(s){case 0:n=J
 m=t.f
 l=J
 s=3
-return A.P($.hP().km(0,"http://192.168.1.4:3000/videosWatchingData",t.z),$async$xo)
+return A.P($.hP().km(0,"https://access-to-citizenship-3a149f930148.herokuapp.com/videosWatchingData",t.z),$async$xo)
 case 3:p=n.z_(m.a(l.aT(b.a,"data")))
 o=p.hd(p,new A.aty(),t.V5).dB(0)
 B.b.ey(o,new A.atz())
